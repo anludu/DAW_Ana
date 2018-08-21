@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type = "text/javascript" src = "lab4.js"></script>
+    <title>Laboratorio 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Laboratorio 4</h1>
+    </header>
+    <article>
+        <h3>Ejercicio 1</h3>
+        <p>Entrada: un número pedido con un prompt. Salida: Una tabla con los números del 1 al número dado con sus cuadrados y cubos. Utiliza document.write para producir la salida </p>
+        <button type="button" onclick= "numbers ()">Start 1</button>
+        <table id = "señoratabla"></table>
+
+    </article>
+    <article>
+        <h3>Ejercicio 2</h3>
+        <p>Entrada: Usando un prompt se pide el resultado de la suma de 2 números generados de manera aleatoria. Salida: La página debe indicar si el resultado fue correcto o incorrecto, y el tiempo que tardó el usuario en escribir la respuesta.</p>
+        <button type="button" onclick= "sum()">Start 2</button>
+
+    </article>
+    <article>
+        <h3>Ejercicio 3</h3>
+        <p>Función: contador. Parámetros: Un arreglo de números. Regresa: La cantidad de números negativos en el arreglo, la cantidad de 0's, y la cantidad de valores mayores a 0 en el arreglo.</p>
+        <button type="button" onclick= "counter()">Start 3</button>
+
+    </article>
+    <article>
+        <h3>Ejercicio 4</h3>
+        <p>Función: promedios. Parámetros: Un arreglo de arreglos de números. Regresa: Un arreglo con los promedios de cada uno de los renglones de la matriz.</p>
+        <button type="button" onclick= "average()">Start 4</button>
+        <p id = "parrafo"> </p>
+
+    </article>
+    <article>
+        <h3>Ejercicio 5</h3>
+        <p>Función: inverso. Parámetros: Un número. Regresa: El número con sus dígitos en orden inverso.</p>
+        <button type="button" onclick= "inverso()">Start 5</button>
+        <p id = "inv"> </p>
+    </article>
+    <header>
+        <h3>Preguntas</h3>
+    </header>
+    <article>
+        <h3>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</h3>
+        <ul>
+            <li>JavaScript no es un lenguaje compilado. JavaScript se integra directamente en las páginas HTML y es interpretado (sin estar compilado) por el cliente (navegador). Es decir, el programa fuente (página web) se ejecuta directamente.</li>
+            <li>JavaScript está basado en objetos, mientras que Java es un lenguaje de programación orientado a objetos (OOP). JavaScript no utiliza clases, herencias o técnicas habituales en la OOP.</li>
+            <li>No existe la declaración de tipos de variables a utilizar. JavaScript se encarga de ello automáticamente.</li>
+            <li>Las referencias a los objetos se comprueban en tiempo real durante la ejecución. En los lenguajes compilados como Java esa comprobación se efectúa al compilarse.</li>
+            <li>JavaScript no puede (no sabe) escribir en el disco duro (excepto cookies). Por ello puede considerarse como un lenguaje seguro en Internet, en el sentido que desde las páginas web, con JavaScript, no se pueden “gastar bromas”.</li>
+        </ul>
+    </article>
+    <article>
+        <h3>¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)</h3>
+        <ul>
+            <li>setUTCDate(): Sets the day of the month of a date object, according to universal time.</li>
+            <li>now(): Returns the number of milliseconds since midnight Jan 1, 1970</li>
+            <li>parse(): Parses a date string and returns the number of milliseconds since January 1, 1970.</li>
+            <li>UTC(): Returns the number of milliseconds in a date since midnight of January 1, 1970, according to UTC time</li>
+            <li>valueOf(): Returns the primitive value of a Date object</li>
+        </ul>
+    </article>
+    <article>
+        <h3>¿Qué métodos tienen los arreglos? (Menciona al menos 5*)</h3>
+        <ul>
+            <li>join(): method also joins all array elements into a string.</li>
+            <li>pop(): method removes the last element from an array</li>
+            <li>push(): method adds a new element to an array</li>
+            <li>shift(): method removes the first array element and "shifts" all other elements to a lower index.</li>
+            <li>unshift(): method adds a new element to an array (at the beginning), and "unshifts" older elements</li>
+        </ul>
+    </article>
+    <article>
+        <h3>¿Cómo se declara una variable con alcance local dentro de una función?</h3>
+        <p>Dentro de la función antecedido de "var".</p>
+    </article>
+    <article>
+        <h3>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</h3>
+        <p>Pueden ser modificadas a lo largo del codigo y se actualiaza por lo que es mas prospensa a errores.</p>
+    </article>
+    <article>
+        <h3>¿Qué método de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?</h3>
+        <p>The includes() method determina si se un strinf tiene caracteres de un string especifico.</p>
+    </article>
+    
+</body>
+
+</html>
