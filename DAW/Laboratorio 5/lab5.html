@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Laboratorio 5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Laboratorio 5</h1>
+    </header>
+    <article>
+        <form>
+            Password: <br>
+            <input type = "password" id = "password">
+            <br>
+            Confirm Password: <br>
+            <input type = "password" id = "cPassword">
+            <br> <br>
+            <button type="password" onclick= "verification()">Verify</button>
+        </form>
+    </article>
+    <article>
+        <header>
+            <h2>Preguntas</h2>
+        </header>
+        <h3>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</h3>
+        <p>Porque se puede verificar los datos sin necesidad de utilizar el servidor.</p>
+    </article>
+    <article>
+        <h3>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</h3>
+        <p>Desactivando JavaScript desde el navegador.</p>
+    </article>
+    <article>
+        <h3>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</h3>
+        <p>Porque sería demasiada carga para el servidor y con javaScrit ya se envía la información procesada. Además, podemos hacer que el servidor no acepte una petición si no es enviada con js.</p>
+    </article>
+    <script type = "text/javascript" src = "lb5.js"></script>
+</body>
+
+</html>

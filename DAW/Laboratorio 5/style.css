@@ -1,0 +1,11 @@
+h3, header{
+
+    text-align: center;
+    color: cadetblue;
+}
+
+body{
+    size:small;
+    font-family:sans-serif; 
+    background-color: azure;
+}
