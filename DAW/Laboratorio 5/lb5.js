@@ -15,3 +15,14 @@ function verification(){
         alert("Llenar todos los campos");    
     }
 }
+
+function printt(){
+    var printo = "";
+    var name = document.getElementById("nombre").value;
+    var matricula = document.getElementById("matricula").value;
+    var semestre = document.getElementById("semestre").value;
+    var carrera = document.getElementById("carrera").value;
+    printo = printo + "Nombre del estudiante: \n" + name + "     \nMatricula: \n" + matricula + "    \nSemestre: \n" + semestre + "     \nCarrera: \n" + carrera;
+    alert(printo);
+    document.getElementById("print").innerHTML = printo;
+}
