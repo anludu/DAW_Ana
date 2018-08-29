@@ -1,0 +1,39 @@
+h3, header{
+
+    text-align: center;
+    color: cadetblue;
+}
+
+body{
+    size:small;
+    font-family:sans-serif; 
+    background-color: azure;
+}
+
+.tooltip {
+    position:relative;
+    display: inline-block;
+    border-bottom: 1px dotted azure;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:white;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 3;
+    position: relative;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    z-index:0;
+    background:aquamarine;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    color:black;
+}

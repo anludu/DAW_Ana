@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Laboratorio 5 y 6</title>
+</head>
+
+<body>
+    <header>
+        <h1>Laboratorio 5 y 6</h1>
+    </header>
+    <article>
+        <form>
+            <h2> Ejercicio 1</h2>
+            Password: <br>
+            <input type = "password" id = "password">
+            <br>
+            Confirm Password: <br>
+            <input type = "password" id = "cPassword">
+            <br> <br>
+            <button type="password" onclick= "verification()">Verify</button>
+        </form>
+    </article>
+    <article>
+
+            <h2> Ejercicio 2</h2>
+            <p>
+                <a href="shop.html">
+                    <img src="https://cdn0.iconfinder.com/data/icons/shopping-extras-set-1/512/1-512.png" alt="Shopping cart"  style="width:55px;height:55px;">
+                </a>
+            </p>
+
+    </article>
+    <article>
+        <article>
+        <h2> Ejercicio 3</h2>
+        <form>
+            Name: <br>
+            <div class="tooltip"><input type = "text" id = "nombre">
+                <span class="tooltiptext">Ingresa tu nombre completo</span>
+            </div>
+            
+            <br>
+            ID:  <br>
+            <div class="tooltip"><input type = "number" id = "matricula">
+                <span class="tooltiptext">Ingresa tu matricula sin A0</span>
+            </div>
+            <br> 
+            Semestre:  <br>
+            <div class="tooltip"><input type = "number" id = "semestre">
+                <span class="tooltiptext">Ingresa el semestre en el que estás</span>
+            </div>
+            
+            <br>
+            Carrera: <br>
+            <div class="tooltip"><input type = "text" id = "carrera">
+                <span class="tooltiptext">Ingresa las siglas de tu carrera</span>
+            </div>
+            <br><br>
+            <button type="button" onclick= "printt()">Enviar</button>
+            <p id = "print"></p>
+        </form>
+    </article>
+    <article>
+        <header>
+            <h2>Preguntas</h2>
+        </header>
+        <h3>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</h3>
+        <p>Porque se puede verificar los datos sin necesidad de utilizar el servidor.</p>
+    </article>
+    <article>
+        <h3>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</h3>
+        <p>Desactivando JavaScript desde el navegador.</p>
+    </article>
+    <article>
+        <h3>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</h3>
+        <p>Porque sería demasiada carga para el servidor y con javaScrit ya se envía la información procesada. Además, podemos hacer que el servidor no acepte una petición si no es enviada con js.</p>
+    </article>
+        <article>
+        <h3>¿Cuáles son las diferencias entre los posibles valores de la propiedad position?</h3>
+        <ul>
+            <li>static : Default value.</li>
+            <li>absolute: The element is positioned relative to its first positioned (not static) ancestor element.</li>
+            <li>fixed: The element is positioned relative to the browser window.</li>
+            <li>relative: The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position.</li>
+            <li>sticky: The element is positioned based on the user's scroll position.</li>
+            <li>initial: Sets this property to its default value.</li>
+            <li>inherit: inherits this property from its parent element.</li>
+        </ul>
+    </article>
+        <article>
+        <h3>¿Cuáles son los valores estándar para la propiedad visibility?</h3>
+        <ul>
+            <li>visible:Default value.</li>
+            <li>hidden:The element is hidden.</li>
+            <li>collapse: Only for table rows (tr), row groups (tbody), columns (col), column groups (colgroup). This value removes a row or column, but it does not affect the table layout. </li>
+            <li>initial: Sets this property to its default value.</li>
+            <li>inherit:Inherits this property from its parent element.</li>
+        </ul>
+    </article>
+        <article>
+        <h3>¿Qué es el zIndex y para qué sirve?</h3>
+        <p>Es la propiedad que indica el orden de stack de un elemento. El elemento con mayor orden siempre está adelante de uno con menor orden. Sirve pata saber el orden de un elemento y los decendientes del mismo</p>
+    </article>
+    <article>
+        <h3>referencias</h3>    
+        <ul>
+            <li>https://developer.mozilla.org/es/docs/Web/CSS/z-index</li>
+            <li>https://www.w3schools.com/cssref/pr_pos_z-index.asp</li>
+            <li>https://www.w3schools.com/cssref/pr_class_visibility.asp</li>
+            <li>https://www.w3schools.com/cssref/pr_class_position.asp</li>
+        </ul>
+    </article>
+    <script type = "text/javascript" src = "lb5.js"></script>
+</body>
+
+</html>
