@@ -90,7 +90,8 @@ function purchaseSG(){
     }    
 }
 
-var time = setInterval(clock, 1000);
+setInterval(clock, 1000);
+
 function clock(){
     var d = new Date();
     var timeAux = d.toLocaleTimeString();
