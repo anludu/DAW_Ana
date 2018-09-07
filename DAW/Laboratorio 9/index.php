@@ -1,18 +1,17 @@
-
 <?php
+
 
 $array = array(9, 6, 3, 7, 2, 6, 5, 8, 1);
 
 function average($array){
-    
-    echo $array;
-    
+    $aux = 0;
+    print_r(array_values($array));
     for ($i = 0 ; $i < 9 ; $i++){
-        
+       
         $aux = $aux + $array[i];
     }
     
-    echo $aux/10;
+    echo "\n\npromedio: " . $aux/10;
 }
 
 
@@ -98,7 +97,54 @@ function vanyaAndFence(){
     }
     echo $aux;
     
-    
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 9</title>
+</head>
+
+<body>
+    <header>Laboratorio 9</header>
+    <article>
+        <header>Ejercicio 1</header>
+        <?php echo average($array);?>
+    </article>
+    <article>
+        <header>Ejercicio 2</header>
+        <p></p>
+        <?php ?>
+    </article>
+    <article>
+        <header>Ejercicio 3</header>
+        <p></p>
+        <?php ?>
+    </article>
+    <article>
+        <header>Ejercicio 4</header>
+        <p></p>
+        <?php ?>
+    </article>
+    <article>
+        <header>Ejercicio 5</header>
+        <p></p>
+        <?php ?>
+    </article>
+    <article>
+        <header>Preguntas</header>
+        <h3>¿Qué hace la función phpinfo()? Describe y discute 3 datos que llamen tu atención.</h3>
+        <p>te da la descripción de la versión de php que estás corriendo. version -> indica que version de php se esta ejecutando.</p>
+        <h3></h3>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        
+    </article>
+</body>
+
+</html>
+
