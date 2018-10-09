@@ -1,0 +1,13 @@
+sp_help materiales
+
+¿Que muestra la instrucción? 
+Muestra los campos de la tabla materiales con sus respectivas especificaciones
+
+Ejecuta las instrucciones que contiene el archivo crear.sql 
+
+¿Qué efecto tuvo esta acción?
+
+¿Qué utilidad tiene esta manera de ejecutar los comandos de SQL?
+
+¿Qué relación tiene el contenido de este archivo (materiales.sql) con el formato en que se encuentran los datos en el archivo materiales.csv?
+¿Qué sucedió?
