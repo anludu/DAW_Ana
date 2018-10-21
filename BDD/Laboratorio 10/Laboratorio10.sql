@@ -1,3 +1,5 @@
+sp_help materiales
+
 CREATE TABLE Materiales
 (
 Clave numeric(5), 
